@@ -1,0 +1,90 @@
+﻿body, div, dl, dt, dd, ol, p, ul, li, h1, h2, h3, h4, h5, h5, h6, pre, form, fieldset, textarea, blockquote
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+
+    background-color: rgb(237,237,237);
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size:16px;
+
+}
+.wrapper{
+    width:1500px;
+    margin:auto;
+
+}
+.content {
+    width: 1500px;
+    background-color: rgb(254,254,254);
+    border: 3px solid rgb(224,224,224);
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin-top: 8px;
+    margin-bottom:8px;
+    min-height:580px;
+
+}
+.menu {
+    background-color: rgb(10,110,178);
+    width: 1500px;
+    margin: auto;
+    padding: 0;
+    height: 50px;
+    color: rgb(243,243,243);
+    border-radius: 5px 5px 5px 5px;
+}
+.navigation_first_item {
+    border-left: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.navitem_s {
+    float: left;
+    border-right: 1px solid rgb(20,85,125);
+    border-left: 5px solid rgb(67,153,200);
+    height: 40px;
+    background-color: rgb(14,79,114);
+}
+.menu ul{
+
+}
+    .menu ul li {
+
+        float: left;
+        display:block;
+        list-style:none;
+        border-right: 1px solid rgb(10,85,125);
+        border-left: 1px solid rgb(67,153,200);
+    }
+        .menu ul li.navigation_first_item:hover {
+            border-radius: 5px 0px 0px 5px;
+        }
+        .menu ul li a {
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 40px;
+            padding: 30px 50px;
+            color: rgb(254,254,254);
+            text-decoration:none;
+
+        }
+    .menu ul li:hover {
+        background-color: rgb(14,79,114);
+        border-right: 1px solid rgb(14,89,130);
+    }
+    .clear {
+        clear: both;
+    }
+.footer {
+    height: 50px;
+    background-color: rgb(10,110,178);
+    color: rgb(254,254,254);
+    border-radius: 5px 5px 5px 5px;
+
+}
+    .footer h2 {
+        padding:13px;
+        text-align:center
+    }

@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EWatseMaster.master.cs" Inherits="EWasteHub.EWatseMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+    </title>
+    <link href="main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="menu">
+                <ul>
+                                       <li><a href="HomePg.aspx">Home</a></li>
+                                       <li><a href="Categories.aspx">Category</a></li>
+                                       <li><a href="ContactUs.aspx">Contact Us</a></li>
+                                       <li><a href="Feedback.aspx">Feedback</a></li>
+                                       <li><a href="AboutUs.aspx">About Us</a></li>
+                     <li><a href="WebForm1.aspx">Recent Upload</a></li>
+                     
+                </ul>
+            </div>
+            <div class="clear"></div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="contentbody" runat="server">
+                
+               
+            </asp:ContentPlaceHolder>
+
+          </div>  
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>Copyright@EWasteHub.Com</h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
